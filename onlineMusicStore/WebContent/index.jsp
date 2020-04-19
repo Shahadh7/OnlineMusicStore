@@ -11,9 +11,9 @@
   <script src="scripts.js"></script>
 <title>Home Page</title>
 </head>
-<body>
+<body>	
 
-<div class="header" >
+<div class="container-fluid" id="header" >
   <h1 align="center">Online Music Store</h1>
   <p align="center"><em>Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.</em></p>
 </div>
