@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home</title>
+<title>OOP Group Project</title>
 </head>
 <body>
-	<h1>HOME PAGE</h1>
+	<h1>OOP</h1>
 	
 </body>
 </html>
