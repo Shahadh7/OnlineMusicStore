@@ -16,12 +16,11 @@ body{
 
 
 .nav a{
-    color: white !important;
-    font-size: 1.8em !important;
+    font-size: 2.2em !important;
 }
 
 .nav li{
-    padding-right:5px;
+    padding-left:5px;
 }
 
 #header{
