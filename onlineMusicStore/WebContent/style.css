@@ -1,0 +1,14 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	background-image: url("assets/new.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Alegreya', serif;
+}
