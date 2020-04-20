@@ -6,24 +6,31 @@
 
 body{
 	height: 100vh;
-	background-image: url("assets/new.jpg");
+	background: url("assets/newback.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	font-family: 'Alegreya', serif;
-	color: white;
-}
-
-
-.nav a{
-    font-size: 2.2em !important;
-}
-
-.nav li{
-    padding-left:5px;
 }
 
 #header{
-	background-color: #333;
-	color: white;
+	background-color:white;
+	color:black;
 }
+
+#artistHeading {
+	background: transparent;
+	font-size: 45px;
+	border: 2px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+ nav {
+	width: 100%;
+	height: 60px;
+	font-size: 22px;	
+}
+

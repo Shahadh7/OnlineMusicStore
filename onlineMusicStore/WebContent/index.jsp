@@ -5,34 +5,42 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="scripts.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
 <title>Home Page</title>
 </head>
+
 <body>	
 
 <div class="container-fluid" id="header" >
-  <h1 align="center">Online Music Store</h1>
+  <h1 align="center" class="display-2">Online Music Store</h1>
   <p align="center"><em>Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.</em></p>
 </div>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Online Music Store</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Employee Management</a></li>
-      <li><a href="#">Artist Management</a></li>
-      <li><a href="#">Page3</a></li>
-      <li><a href="#">Page4</a></li>
-      <li><a href="#">Page5</a></li>
-    </ul>
-  </div>
-</nav>
 
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.jsp">Online Music Store</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Employee Management</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="${pageContext.request.contextPath}/ArtistController">Artist Management</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Customer Management</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Payment Management</a>
+      </li>      
+    </ul>
+  </div>  
+</nav>
 
 </body>
 </html>
