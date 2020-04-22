@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.Artist;
-import utils.DbConnectionUtil;
 
 public class ArtistDAOImplementation implements ArtistDAO{
 
@@ -39,7 +38,7 @@ public class ArtistDAOImplementation implements ArtistDAO{
 				artist.setName(resultSet.getString("artist_name"));
 				artist.setGenre(resultSet.getString("artist_genre"));
 				artist.setSex(resultSet.getString("artist_sex"));
-				artist.setNoOfSongs(resultSet.getInt("artist_no_of_songs"));
+				artist.setNoOfAlbum(resultSet.getInt("artist_no_of_album"));
 				
 				// add artist to the list 
 				list.add(artist);

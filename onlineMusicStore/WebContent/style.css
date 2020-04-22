@@ -6,7 +6,7 @@
 
 body{
 	height: 100vh;
-	background: url("assets/newback.jpg");
+	background: url("assets/back.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;

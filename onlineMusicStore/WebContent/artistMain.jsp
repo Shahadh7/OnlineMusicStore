@@ -33,7 +33,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Employee Management</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/UserServlet">Employee Management</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="${pageContext.request.contextPath}/ArtistController">Artist Management</a>
@@ -109,7 +109,7 @@
 	<tr>
 		<th>Name</th>
 		<th>Genre</th>
-		<th>No Of Songs</th>
+		<th>No Of Albums</th>
 		<th>Sex</th>
 	</tr>
 	</thead>
@@ -117,7 +117,7 @@
 	<tr>
 		<td>${artist.name}</td>
 		<td>${artist.genre}</td>
-		<td>${artist.noOfSongs}</td>
+		<td>${artist.noOfAlbum}</td>
 		<td>${artist.sex}</td>
 	<tr>
 	</c:forEach>

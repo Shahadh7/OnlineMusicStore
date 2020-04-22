@@ -27,7 +27,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Employee Management</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/UserServlet">Employee Management</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="${pageContext.request.contextPath}/ArtistController">Artist Management</a>

@@ -13,7 +13,7 @@ public class Artist {
 	
 	private String genre;
 	
-	private Integer noOfSongs;
+	private Integer noOfAlbum;
 
 	
 	// getters and setters for Artist
@@ -50,12 +50,12 @@ public class Artist {
 		this.genre = genre;
 	}
 
-	public Integer getNoOfSongs() {
-		return noOfSongs;
+	public Integer getNoOfAlbum() {
+		return noOfAlbum;
 	}
 
-	public void setNoOfSongs(Integer noOfSongs) {
-		this.noOfSongs = noOfSongs;
+	public void setNoOfAlbum(Integer noOfAlbum) {
+		this.noOfAlbum = noOfAlbum;
 	}
 	
 	
@@ -63,7 +63,7 @@ public class Artist {
 
 	@Override
 	public String toString() {
-		return "Artist [id=" + id + ", name=" + name + ", sex=" + sex + ", genre=" + genre + ", noOfSongs=" + noOfSongs
+		return "Artist [id=" + id + ", name=" + name + ", sex=" + sex + ", genre=" + genre + ", noOfAlbum=" + noOfAlbum
 				+ "]";
 	}
 	
